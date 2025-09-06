@@ -1,1 +1,16 @@
 /* Add your custom css here */
+
+body {
+    background-color: black;
+}
+
+.btn-primary:hover {
+  background-color: #0b3677; /* Darker shade for hover */
+}
+
+/* Example: Card hover effect */
+.card:hover {
+  background-color: #f8f9fa; /* light gray */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
